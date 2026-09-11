@@ -8,8 +8,8 @@ import java.util.Set;
 
 @Data
 public class Player {
-    public static final double WIDTH = 40;
-    public static final double HEIGHT = 40;
+    public static final double WIDTH = 60;
+    public static final double HEIGHT = 60;
     private static final double DEFAULT_SPEED = 220;
     public boolean isHolding = false;
 

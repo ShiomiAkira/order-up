@@ -3,11 +3,13 @@ package com.orderup.model;
 import java.util.List;
 
 public class IngredientsBox extends Tile{
-    TileType tileType = TileType.INGREDIENT_SOURCE;
+
+
 
 
     public IngredientsBox(int x, int y) {
         super(x, y);
+        tileType=TileType.INGREDIENT_SOURCE;
     }
 
     //产生食材
