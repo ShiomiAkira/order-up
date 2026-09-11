@@ -20,10 +20,10 @@ public class Tile {
       }
 
       public int getX() {
-          return colnumber*TileSize;
+          return colNumber *TileSize;
       }
       public int getY() {
-          return rownumber*TileSize;
+          return rowNumber *TileSize;
       }
 
     public TileType getType() {
